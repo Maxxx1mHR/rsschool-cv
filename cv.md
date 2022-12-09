@@ -1,7 +1,7 @@
 # [rsschool-cv](https://Maxxx1mHR.github.io/rsschool-cv)
 
 ## Maxim Pudeev
- ![cv_photo]( img/cv_photo.jpg "My_photo")
+ ![cv_photo]( src/img/cv_photo.jpg "My_photo")
 
 ## Contacts
 Location: *Nizhny Novgorod, Russia*

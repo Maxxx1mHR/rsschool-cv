@@ -1,0 +1,15 @@
+.header {
+    nav {
+
+        background-color: rgb(71, 69, 69);
+    }
+
+    &__menu {
+        width: 100%;
+        height: 50px;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

@@ -52,41 +52,87 @@
             }
         }
     }
-    //Section Education 
-    .aside {
-        &__education {
-            margin-top: 40px;
-        }
-        &__wrapper {
-            &-university {
-                display: block;
-                text-decoration: none;
-                color: #ffffff;
-                font-weight: 400;
-                font-size: 20px;
-                &:hover {
-                    text-decoration-line: underline;
-                }
 
+    //Section Education 
+    &__education {
+        margin-top: 40px;
+        &-title {
+            margin-bottom: 20px;
+        }
+
+        &-university {
+            padding-left: 30px;
+            position: relative;
+            font-size: 20px;
+            line-height: 18px;
+            font-weight: 400;
+            color: #ffffff;
+            text-decoration: none;
+            &:before {
+                content: '';
+                position: absolute;
+                width: 0;
+                height: 2px;
+                background-color: #ffffff;
+                bottom: 0;
+                transition: 0.4s;
             }
-            &-line {
+            &:hover::before {
                 width: 100%;
-                height: 1px;
-                background-color: #fff;
             }
-            // &-institute {
-            //     margin-top: 20px;
-            //     font-weight: 300;
-            //     font-style: 16px;
-            // }
+            &:after {
+                content: '';
+                position: absolute;
+                width: 18px;
+                height: 18px;
+                // border-radius: 100%;
+                // background-color: #ffffff;
+                border: 2px solid white;
+                left: 0;
+                opacity: 0.3;
+            }
+            &:hover::after {
+                transition: 0.4s;
+                opacity: 1;
+            }
+        }
+        &-wrapper {
+            position: relative;
+            margin-top: 20px;
+            list-style-type: none;
+            &:before { 
+                content: '';
+                position: absolute;
+                height: calc(100% + 19px);
+                width: 2px;
+                background-color: #ffffff;
+                top: -18px;
+                left: 10px;
+            }
+            &-item {
+                position: relative;
+                margin-top: 20px;
+                font-weight: 400;
+                padding-left: 40px;
+                color: #ffffff;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    width: 25px;
+                    height: 2px;
+                    background-color: #ffffff;
+                    left: 10px;
+                    top: 100%;
+                }
+                }
             &-degree {
-                margin-top: 14px;
+                font-size: 16px;
             }
             &-year {
+                font-size: 14px;
                 margin-top: 10px;
+                font-weight: 300;
             }
         }
     }
-
-
 }

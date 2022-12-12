@@ -63,20 +63,24 @@
                 text-decoration: none;
                 color: #ffffff;
                 font-weight: 400;
-                font-size: 18px;
+                font-size: 20px;
+                &:hover {
+                    text-decoration-line: underline;
+                }
+
             }
             &-line {
                 width: 100%;
                 height: 1px;
                 background-color: #fff;
             }
-            &-institute {
-                margin-top: 20px;
-                font-weight: 300;
-                font-style: 16px;
-            }
+            // &-institute {
+            //     margin-top: 20px;
+            //     font-weight: 300;
+            //     font-style: 16px;
+            // }
             &-degree {
-                margin-top: 20px;
+                margin-top: 14px;
             }
             &-year {
                 margin-top: 10px;

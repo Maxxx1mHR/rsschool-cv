@@ -1,8 +1,13 @@
 nav {
+    position: relative;
+    width: 100%;
+    height: 50px;
     background-color: #2d2f31;
+    .hamburger {
+        display: none;
+    }
 }
 .menu {
-    width: 100%;
     height: 50px;
     display: flex;
     justify-content: space-between;

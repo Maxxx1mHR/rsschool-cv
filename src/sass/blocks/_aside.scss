@@ -78,7 +78,7 @@
                 transition: 0.4s;
             }
             &:hover::before {
-                width: 100%;
+                width: calc(100% - 30px);
             }
             &:after {
                 content: '';

@@ -5,6 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV-HTML</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="src/icons/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="src/icons/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="src/icons/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="src/icons/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="src/icons/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="src/icons/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="src/icons/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="src/icons/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="src/icons/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="src/icons/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="src/icons/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="src/icons/favicon/favicon-16x16.png">
+    <link rel="manifest" href="src/icons/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="src/icons/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="src/css/style.min.css">
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet"> -->
 </head>
@@ -51,7 +68,7 @@
                 <div class="aside__box">
                     <img class="aside__img" src="src/img/my_photo.PNG" alt="my_photo">
                         <div class="aside__box-descr">
-                        <section id="contacts" class="aside__contact">
+                        <section id="contacts" class="aside__contact wow animate__animated animate__fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                             <h2 class="title">Contact_</h2>
                             <ul class="aside__wrapper">
                                 <li class="aside__wrapper-item">
@@ -75,7 +92,7 @@
                                     <a href="https://github.com/Maxxx1mHR" class="aside__wrapper-link">_Maxxx1mHR</a>
                                 </li>
                             </ul>
-                            <section id="education" class="aside__education">
+                            <section id="education" class="aside__education wow animate__animated animate__fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                                 <h2 class="title aside__education-title">Education_</h2>
                                 <a href="https://www.nntu.ru/" class="aside__education-university">NSTU n.a. R.E. Alekseev</a>
                                 <ul class="aside__education-wrapper">
@@ -96,11 +113,14 @@
                 <section id="about_me" class="about_me">
                     <h1 class="about_me__title"><span>Maxim_</span><br> Pudeev</h1>
                     <h2 class="about_me__subtitle">Frontend Developer</h2>
-                    <h2 class="title__section-title">About me_</h2>
-                    <div class="about_me__descr">My name is Maxim. I am beginner web-developer from Nizhny Novgorod. I've been learning the basics of css and html for couple months. I think, finally, I find right language and direction, where I want to learn something new, improve my current knowledges, spend a lot of time and enjoy with it. I want to be Frontend Developer.
+                    <div class="wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+                        <h2 class="title__section-title">About me_</h2>
+                        <div class="about_me__descr">My name is Maxim. I am beginner web-developer from Nizhny Novgorod. I've been learning the basics of css and html for couple months. I think, finally, I find right language and direction, where I want to learn something new, improve my current knowledges, spend a lot of time and enjoy with it. I want to be Frontend Developer.
+                        </div>
                     </div>
+
                 </section>
-                <section id="experience" class="experience">
+                <section id="experience" class="experience wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                     <h2 class="title__section-title">Experience_</h2>
                         <ul>
                             <li>
@@ -115,7 +135,7 @@
                             </li>
                         </ul>
                 </section>
-                <section id="skills" class="skills">
+                <section id="skills" class="skills wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                     <h2 class="title__section-title">Skills_</h2>
                     <ul class="skills__wrapper">
                         <li class="skills__items">
@@ -129,7 +149,7 @@
                             <div class="skills__item">SQL, MySQL, Microsoft SQL Server</div>
                         </li>
                 </section>
-                <section class="courses-languges">
+                <section class="courses-languges wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                     <section id="courses" class="courses">
                         <h2 class="title__section-title">Courses_</h2>
                         <ul class="courses__wrapper">
@@ -144,7 +164,7 @@
                         </ul>
                     </section>
                 </section>
-                <section id="code" class="code">
+                <section id="code" class="code wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                     <h2 class="title__section-title">Code_</h2>
                     <pre>
                         <code>
@@ -172,5 +192,11 @@
             </div>
         </div> 
      </footer>
+
+
+
+     <script src="src/js/wow.min.js"></script>
+     <script src="src/js/script.js"></script>
+
 </body>
 </html>

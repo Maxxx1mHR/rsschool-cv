@@ -15,7 +15,7 @@ article {
     }
     &__subtitle {
         margin-top: 10px;
-        max-width: 460px;
+        // max-width: 460px;
         text-align: center;
         font-size: 44px;
         font-weight: 500;
@@ -29,5 +29,7 @@ article {
         font-weight: 300;
         color: $main-color;
     }
-
+}
+.hide {
+    display: none;
 }

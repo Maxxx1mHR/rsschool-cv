@@ -2,7 +2,7 @@ new WOW().init();
 
 const menu = document.querySelector('.menu');
 const hamburger = document.querySelector('.hamburger');
-const close = document.querySelector('.menu__item-close')
+const close = document.querySelector('.close')
 
 
 hamburger.addEventListener('click', () => {
@@ -12,5 +12,4 @@ hamburger.addEventListener('click', () => {
 
 close.addEventListener('click', () => {
     menu.classList.remove('menu_active');
-    console.log(menu);
 });

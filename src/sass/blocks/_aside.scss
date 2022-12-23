@@ -1,0 +1,138 @@
+.title {
+    font-size: 40px;
+    line-height: 58px;
+    font-weight: 600;
+    color: #ffffff;
+} //вынести title в отдельный класс?
+.aside {
+    padding-top: 40px;
+    color: #ffffff;
+    &__box { 
+        height: 100%;
+        background-color: $main-color;
+        &-descr {
+            padding: 40px 40px;
+        }
+    }
+
+    //Section Contact
+    &__img {
+        width: 100%;
+    }
+    &__wrapper {
+        list-style-type: none;
+        &-item {
+            margin-top: 25px;
+        }
+        &-subtitle {
+            font-size: 26px;
+            font-weight: 400;
+            color: #ffffff;
+            margin-bottom: 5px;
+        }
+        &-link {
+            position: relative;
+            // display: block;
+            // margin-top: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 300;
+            color: #ffffff; 
+            &:before {
+                content: '';
+                position: absolute;
+                height: 2px;
+                width: 0;
+                background-color: #ffffff;
+                bottom: 0;
+                transition: 0.4s;
+            }
+            &:hover::before {
+                width: 100%;
+            }
+        }
+    }
+
+    //Section Education 
+    &__education {
+        margin-top: 40px;
+        &-title {
+            margin-bottom: 20px;
+        }
+
+        &-university {
+            padding-left: 30px;
+            position: relative;
+            font-size: 20px;
+            line-height: 18px;
+            font-weight: 400;
+            color: #ffffff;
+            text-decoration: none;
+            &:before {
+                content: '';
+                position: absolute;
+                width: 0;
+                height: 2px;
+                background-color: #ffffff;
+                bottom: 0;
+                transition: 0.4s;
+            }
+            &:hover::before {
+                width: calc(100% - 30px);
+            }
+            &:after {
+                content: '';
+                position: absolute;
+                width: 18px;
+                height: 18px;
+                // border-radius: 100%;
+                // background-color: #ffffff;
+                border: 2px solid white;
+                left: 0;
+                opacity: 0.3;
+            }
+            &:hover::after {
+                transition: 0.4s;
+                opacity: 1;
+            }
+        }
+        &-wrapper {
+            position: relative;
+            margin-top: 20px;
+            list-style-type: none;
+            &:before { 
+                content: '';
+                position: absolute;
+                height: calc(100% + 19px);
+                width: 2px;
+                background-color: #ffffff;
+                top: -18px;
+                left: 10px;
+            }
+            &-item {
+                position: relative;
+                margin-top: 20px;
+                font-weight: 400;
+                padding-left: 40px;
+                color: #ffffff;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    width: 25px;
+                    height: 2px;
+                    background-color: #ffffff;
+                    left: 10px;
+                    top: 100%;
+                }
+                }
+            &-degree {
+                font-size: 16px;
+            }
+            &-year {
+                font-size: 14px;
+                margin-top: 10px;
+                font-weight: 300;
+            }
+        }
+    }
+}

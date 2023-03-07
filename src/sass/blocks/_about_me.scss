@@ -1,0 +1,35 @@
+article {
+    padding: 40px 40px 0 80px;
+}
+.about_me {
+    &__title {
+        font-size: 100px;
+        font-weight: 500;
+        color: $main-color;
+        margin: 0;
+        line-height: 90px;
+        span {
+            font-size: 80px;
+            font-weight: 400;
+        }
+    }
+    &__subtitle {
+        margin-top: 10px;
+        // max-width: 460px;
+        text-align: center;
+        font-size: 44px;
+        font-weight: 500;
+        color: $main-color;
+        background-color: #ebebeb;
+    }
+    &__descr {
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 300;
+        color: $main-color;
+    }
+}
+.hide {
+    display: none;
+}

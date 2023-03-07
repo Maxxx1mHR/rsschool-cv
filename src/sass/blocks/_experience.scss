@@ -1,0 +1,47 @@
+.experience {
+    ul {
+        list-style-type: none;
+        li {
+            position: relative;
+            &::before {
+                content: '';
+                position: absolute;
+                height: calc(100% + 20px);
+                width: 3px;
+                background-color: $main-color;
+                left: 9px; 
+            }      
+        } 
+    }
+    ul:nth-last-child(1) li:before {
+        height: calc(100% - 0px); //Убираю выступающую палочку ву последнего элемента. 
+    }
+    &__title {
+        margin-top: 20px;
+        padding-left: 30px;
+        position: relative;
+        font-size: 22px;
+        font-weight: 500;
+        color: $main-color;
+        &::before {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: $main-color;
+            border-radius: 100%;
+            left: 0;
+        }
+    }
+    &__position {
+        margin-top: 10px;
+        padding-left: 30px;
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 300;
+        color: $main-color;
+    }
+
+
+}
+

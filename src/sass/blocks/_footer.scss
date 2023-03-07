@@ -1,0 +1,42 @@
+.footer {
+    width: 100%;
+    margin-top: 10px;
+    min-height: 100px;
+    background-color: $main-color;
+    &__wrapper {
+        padding-right: 40px;
+        min-height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__descr {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #ffffff;
+        opacity: 0.5;
+    }
+    &__img {
+        &-git {  
+            width: 50px;
+            opacity: 0.4;
+            &:hover {
+                opacity: 1;
+                transition: 0.5s;
+            }
+        }
+        &-copyright {
+            margin-right: 10px;
+            width: 20px;
+        }
+        &-rsschool {
+            height: 60px;;
+            opacity: 0.4;
+            &:hover {
+                opacity: 1;
+                transition: 0.5s;
+            }
+        }
+    }
+}

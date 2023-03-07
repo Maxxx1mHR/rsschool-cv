@@ -1,0 +1,51 @@
+// @import 'libs/bootstrap-reboot.min';
+@import 'libs/normalize';   
+@import 'libs/animate';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap'); 
+@import 'base/variables';
+
+
+* {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main {
+    .container {
+        display: flex;
+    }
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+
+@import 'blocks/menu';
+@import 'blocks/aside';
+@import 'blocks/about_me';
+@import 'blocks/title';
+@import 'blocks/experience';
+@import 'blocks/skills';
+@import 'blocks/courses-languges';
+@import 'blocks/code';
+@import 'blocks/footer';
+@import 'blocks/media';

@@ -8,8 +8,8 @@ Create CV using markdown markup, and then make it using html and css.
 * CV#1. [Markdown](https://Maxxx1mHR.github.io/rsschool-cv/cv)
 * CV#2. [HTML](https://Maxxx1mHR.github.io/rsschool-cv/)
 
-<img  src="https://github.com/Maxxx1mHR/rsschool-cv/assets/44443884/4767dda1-801a-412e-ad82-7145ea94c196" alt="deploy screenshot pc" width="740">
-<img  src="https://github.com/Maxxx1mHR/rsschool-cv/assets/44443884/1411e75c-b897-4885-85df-64e2cf07a2f4" alt="deploy screenshot mobile" width="215">  
+<img  src="https://github.com/Maxxx1mHR/rsschool-cv/assets/44443884/4767dda1-801a-412e-ad82-7145ea94c196" alt="deploy screenshot pc" width="630">
+<img  src="https://github.com/Maxxx1mHR/rsschool-cv/assets/44443884/1411e75c-b897-4885-85df-64e2cf07a2f4" alt="deploy screenshot mobile" width="180">  
 
 ## Tech stack
 * HTML

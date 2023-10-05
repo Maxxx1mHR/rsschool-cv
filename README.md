@@ -4,7 +4,7 @@
 CV (curriculum vitae) - a document in which the applicant describes his education and work experience. Unlike a resume, which is edited to meet the requirements of each specific vacancy, the CV displays professional achievements and skills for the entire period of study and work.
 
 Create CV using markdown markup, and then make it using html and css.
-## Deploy (done 07.03.2023 / deadline 29.03.2023)
+## Deploy
 * CV#1. [Markdown](https://Maxxx1mHR.github.io/rsschool-cv/cv)
 * CV#2. [HTML](https://Maxxx1mHR.github.io/rsschool-cv/)
 
